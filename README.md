@@ -1,1 +1,0 @@
-# graphql-git-loader
