@@ -1,7 +1,6 @@
-const typeDefs = /* GraphQL */`
   type Post {
     id: ID
-    title: String
+    title: String @deprecated(reason: "No more used")
     createdAt: String
     modifiedAt: String
   }
@@ -9,4 +8,3 @@ const typeDefs = /* GraphQL */`
     post: Post!
     posts: [Post!]
   }
-`;
