@@ -1,7 +1,7 @@
 export default const typeDefs = /* GraphQL */`
   type Post {
     id: ID
-    title: String @deprecated(reason: "No more used")
+    title: String
     createdAt: String
     modifiedAt: String
   }
