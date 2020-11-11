@@ -1,0 +1,12 @@
+export default const typeDefs = /* GraphQL */`
+  type Post {
+    id: ID
+    title: String @deprecated(reason: "No more used")
+    createdAt: String
+    modifiedAt: String
+  }
+  type Query {
+    post: Post!
+    posts: [Post!]
+  }
+`;
