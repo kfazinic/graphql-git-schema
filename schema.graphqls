@@ -1,4 +1,4 @@
-export default const typeDefs = /* GraphQL */`
+const typeDefs = /* GraphQL */`
   type Post {
     id: ID
     title: String
